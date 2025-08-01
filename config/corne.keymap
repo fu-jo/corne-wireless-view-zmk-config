@@ -28,6 +28,25 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        copy {
+            bindings = <&kp K_COPY>;
+            key-positions = <38 27>;
+        };
+
+        paste {
+            bindings = <&kp K_PASTE>;
+            key-positions = <28 38>;
+        };
+
+        cut {
+            bindings = <&kp K_CUT>;
+            key-positions = <38 26>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
